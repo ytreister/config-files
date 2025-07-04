@@ -1,0 +1,24 @@
+{
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "debug.javascript.autoAttachFilter": "smart",
+    "editor.renderWhitespace": "all",
+    "files.trimTrailingWhitespace": true,
+    "[markdown]": {
+        "files.trimTrailingWhitespace": false
+    },
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "[typescript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "[python]": {
+		"editor.defaultFormatter": "charliermarsh.ruff",
+		"editor.formatOnSave": true
+    },
+    "diffEditor.ignoreTrimWhitespace": false,
+    "python.terminal.activateEnvironment": false,
+    "python.languageServer": "None",
+    "editor.codeActionsOnSave": {}
+}

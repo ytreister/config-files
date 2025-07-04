@@ -1,0 +1,23 @@
+[user]
+	email = ytreister@gmail.com
+	name = Yair Treister
+[core]
+	autocrlf = true
+	whitespace = cr-at-eol
+	excludesfile = ~/.gitignore
+[alias]
+	pr = remote prune origin
+	url = remote set-url origin
+	st = status
+	ci = commit
+	co = checkout
+	hist = "log --graph --pretty=tformat:'%h: <%Cred%cn%Creset> %s (%Cgreen%cr%Creset)'"
+[color]
+	ui = true
+[push]
+	default = simple
+[filter "lfs"]
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f

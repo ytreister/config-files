@@ -1,0 +1,8 @@
+# Python
+**/.venv
+**/venv
+**/.coverage
+**/__pycache__
+
+# VS Code
+**/.vscode
